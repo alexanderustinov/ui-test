@@ -1,0 +1,8 @@
+setup.py
+GameList/__init__.py
+GameList/test.py
+GameList.egg-info/PKG-INFO
+GameList.egg-info/SOURCES.txt
+GameList.egg-info/dependency_links.txt
+GameList.egg-info/requires.txt
+GameList.egg-info/top_level.txt
