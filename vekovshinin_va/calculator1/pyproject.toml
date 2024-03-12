@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Calculator"
+version = "0.0.1"
+dependencies = ["PyQt6", "requests",
+    'importlib-metadata; python_version>="3.10"']
