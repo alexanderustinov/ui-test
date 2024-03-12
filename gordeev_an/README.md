@@ -9,7 +9,7 @@ pip install -e "путь к пакету на вашем компьютере"
 
 ## Запуск
 ```
-python -m GameList.test
+python -m calculator.main
 ```
 
 json файл с данными можно заменить на другой, но сохранив при этом название

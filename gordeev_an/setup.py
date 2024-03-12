@@ -1,10 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='GameList',
-    version='0.1',
+    name='calculator',
+    version='0.3',
     packages=find_packages(),
     install_requires=[
         'tk'
-    ]
+    ],
+    entry_points={
+        "console_scripts": [
+            "calculator-start = calculator.calc:main",
+        ],
+    }
 )
